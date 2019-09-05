@@ -5,7 +5,7 @@ setup(name = 'Qmath',
       description = 'CTF Crypto',
       author = 'G0vi',
       author_email = 't2502903838@163.com',
-      packages = ['package'], 
-      package_data = {packages: files},
+      packages = [''], 
+      package_data = {'': files},
       )
 
