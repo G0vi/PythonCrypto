@@ -9,4 +9,5 @@ from .Prime import *
 from .wiener_attack import wiener_attack
 from .BigInt import *
 from .LSB import LSB
+from .quadratic_residue import Jacobi, Legendre, factor
 #__all__=['xgcd.py','China.py','PrimeSift.py','Bit.py']
