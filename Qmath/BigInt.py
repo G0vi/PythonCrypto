@@ -1,6 +1,8 @@
 def root(n, index):
-    up = n
-    down = 0
+    Length = n.bit_length()
+    length = Length // index
+    down = 2 ** length if Length % index != 0 else 2 ** (length - 1)
+    up = 2 ** (length + 1)
     ave = (up + down) // 2
     while not (ave ** index <= n and (ave + 1) ** index > n):
         if ave ** index > n:
