@@ -8,4 +8,13 @@ setup(name = 'Qmath',
       packages = [''], 
       package_data = {'': files},
       )
+files = ['mycrypto']
+setup(name='mycrypto',
+      version='1.0',
+      description='CTF Crypto2',
+      author="G0vi",
+      author_email="t2502903838@163.com",
+      packages=[''],
+      package_data={'': files}
+     )
 
